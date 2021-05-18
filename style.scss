@@ -1,0 +1,129 @@
+body {
+    font-weight: bold;
+}
+
+.head {
+    background: black;
+
+    a {
+        text-decoration: none;
+
+        span {
+            color: white;
+            font-size: 34px;
+            line-height: 73px;
+        }
+    }
+
+    ul {
+        text-align: right;
+
+        li {
+            display: inline-block;
+            }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            padding: 22px 15px;
+        }
+    }
+}
+
+
+.baner {
+    background-image: url('./a0c6042d4612d7adf44692fffac7e082.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        transform: translate(-194px, -44px);
+    }
+
+    p {
+        transform: translate(-194px, -44px);
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+
+    a {
+        text-decoration: none;
+        background: black;
+        color: white;
+        padding: 15px 25px;
+        display: inline-block;
+        transform: translate(-194px, -44px);
+    }
+}
+
+.about {
+    background-color: #444444;
+    padding: 50px;
+
+    p {
+        color: white;
+        transform: translate(-44px, 167px);
+        font-size: 20px;
+    }
+
+    img {
+        width: 350px;
+        height: auto;
+        display: inline-block;
+        transform: translate(983px, -70px);
+    }
+}
+
+.team {
+    background-color: #458b83;
+    padding-bottom: 100px;
+
+    h1 {
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    img {
+        max-width: 100%;
+        width: 250px;
+    }
+
+    .img1 {
+        transform: translate(175px, 10px);
+
+        i {
+            transform: translate(-191px, 152px);
+            padding: 0 10px;
+            color: white;
+        }
+    }
+
+    .img2 {
+        transform: translate(82px, 10px);
+
+        i {
+            transform: translate(-191px, 152px);
+            padding: 0 10px;
+            color: white;
+        }
+
+    }
+
+    .img3 {
+        transform: translate(-24px, 10px);
+
+        i {
+            transform: translate(-191px, 152px);
+            padding: 0 10px;
+            color: white;
+        }
+
+    }
+}
